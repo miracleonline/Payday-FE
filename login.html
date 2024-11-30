@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Courgette|Pacifico:400,700">
+<title>Log in</title>
+<meta content="" name="description">
+<meta content="" name="log in, Pinnacles Financial Service, forex, stock, crypto, bitcoin, financial planning, profits, assets">
+<link href="assets/img/pdx.jpg" rel="icon">
+<link href="assets/img/pdx.jpg" rel="apple-touch-icon">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+body {
+	color: #999;
+	background: #e1e1e1;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	min-height: 41px;
+	box-shadow: none;
+	border-color: #e1e1e1;
+}
+.form-control:focus {
+	border: 1px solid orange;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+}	
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.form-control::placeholder {
+    color: lightgrey; /* Adjust the color as needed */
+}
+.form-header {
+	margin: -30px -30px 20px;
+	padding: 30px 30px 10px;
+	text-align: center;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	color: #012960;
+}
+.form-header h2 {
+	font-size: 34px;
+	font-weight: bold;
+	margin: 0 0 10px;
+	font-family: 'Nunito', sans-serif;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.form-header p {
+	margin: 20px 0 15px;
+	font-size: 17px;
+	line-height: normal;
+	font-family: 'Nunito', sans-serif;
+}
+.signup-form {
+	width: 390px;
+	margin: 0 auto;	
+	padding: 30px 0;	
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+	padding: 30px;
+	border: 1px solid #012960;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}		
+.signup-form label {
+	font-weight: normal;
+	font-size: 14px;
+}
+.signup-form input[type="checkbox"] {
+	position: relative;
+	top: 1px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #012960;
+	border: none;
+	min-width: 200px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #fff !important;
+	color: #012960;
+	outline: none;
+	border: 1px solid #012960;
+}
+.signup-form .btn:active {
+	background: #012960 !important;
+	color: #fff;
+	outline: none;
+}
+.signup-form a {
+	color: #012960;		
+}
+.signup-form a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+  padding: 20px 0;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.footer .copyright {
+  text-align: center;
+  color: #012970;
+}
+
+.footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #012970;
+}
+</style>
+</head>
+<body>
+<div class="signup-form">
+    <form  method="post">
+		<div class="form-header">
+			<h2>Sign in</h2>
+			<p>Fill out this form to start login session</p>
+		</div>
+ 
+        <div class="form-group">
+			<label>Email Address</label>
+        	<input type="email" class="form-control" name="email" required="required" placeholder="e.g johndoe@example.com">
+        </div>
+	
+		<div class="form-group">
+			<label> Password</label>
+            <input type="password" class="form-control" name="password" required="required" placeholder="Enter password">
+        </div>
+        <div class="form-group" style="text-align: right;">
+        <label class="form-check-label">
+        <a href="forgot-password.php">Forgot Password?</a>
+        </label>
+        </div>
+        <div class="form-group">
+			<label class="form-check-label"><a href="resend-otp.php">Resend OTP</a></label>
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary btn-block btn-lg" name="login">Log in</button>
+		</div>
+		<div class="text-center small" style="color: orange;"><img src="assets/img/pdx.jpg" alt="" style="margin-right: 7px;">Don't have an account? <a href="index.php">Register here</a>
+	</div>
+    </form>
+<footer class="footer">
+	<div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Pinnacles Financial Corporation 2024</span></strong>. All Rights Reserved
+      </div>
+    </div>
+</footer>
+</body>
+</html>

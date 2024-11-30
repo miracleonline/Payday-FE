@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Account Management</title>
+  <meta content="Unlock financial possibilities with Payday. Explore investment opportunities, expert advice, and strategic portfolio management. Secure your financial future with a trusted partner committed to maximizing returns and profits. Start your journey to financial success today." name="description">
+  <meta content="Payday Investment" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/pdx.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+.form-control {
+  min-height: 41px;
+  box-shadow: none;
+  border-color: #e1e1e1;
+}
+.form-control:focus {
+  border-color: #012960;
+} 
+.form-control, .btn {        
+  border-radius: 3px;
+}
+.form-control::placeholder {
+    color: lightgrey; /* Adjust the color as needed */
+}
+.form-header {
+  margin: -30px -30px 20px;
+  padding: 30px 30px 10px;
+  text-align: center;
+  background: #012960;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  color: #fff;
+}
+.form-header h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  font-family: 'Nunito', sans-serif;
+}
+.form-header p {
+  margin: 20px 0 15px;
+  font-size: 17px;
+  line-height: normal;
+  font-family: 'Nunito', sans-serif;
+}
+.signup-form {
+  width: 390px;
+  margin: 0 auto; 
+  padding: 30px 0;  
+}
+.signup-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.signup-form .form-group {
+  margin-bottom: 20px;
+}   
+.signup-form label {
+  font-weight: normal;
+  font-size: 14px;
+  color: #012960;
+}
+.signup-form input[type="checkbox"] {
+  position: relative;
+  top: 1px;
+}
+.signup-form .btn {        
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 200px;
+  background: #012960;
+  color: #fff;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+  background: #fff !important;
+  color: #012960;
+  outline: none;
+  border-color: #012960;
+}
+.signup-form a {
+  color: #012960;   
+}
+.signup-form a:hover {
+  text-decoration: underline;
+}
+/* CSS for aligning country code and phone number on the same line */
+.phone-input {
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center; /* Vertically center elements within the flex container */
+}
+
+.country-code {
+    flex: 1; /* Allow the country code select element to grow and take available space */
+    margin-right: 10px; /* Add some spacing between the select and input */
+    min-height: 41px;
+    min-width: 70px;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/pdx.jpg" alt="">
+        <span>Payday</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="account-management.html">Investment Management</a></li>
+              <li class="dropdown"><a href="#"><span>Investment Portfolio</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="stock-portfolio.html">Stock</a></li>
+                  <li><a href="crypto-portfolio.html">Crypto</a></li>
+                  <li><a href="ETF-portfolio.html">ETFs</a></li>
+                  <li><a href="indices.html">Index</a></li>
+                  <li><a href="Plans.html">Offers</a></li>
+                </ul>
+              </li>
+              <li><a href="advice.html">Investment Advice</a></li>
+              <li><a href="Plans.html">Investment Plans</a></li>
+              <li><a href="about-details.html">About us</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Our Blog</a></li>
+          <li><a class="nav-link scrollto" href="Learn-center.html">Learn Center</a></li>
+          <li><a class="nav-link scrollto" href="Support-center.html">Support Center</a></li>
+          <li><a class="nav-link scrollto" href="emailotpverification/login.php">Sign In</a></li>
+          <li><a class="getstarted scrollto" href="emailotpverification/index.php">Create Account</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Back to Homepage</a></li>
+          <li>Loan application</li>
+        </ol>
+        <h2>Loan application</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section>
+      <div class="signup-form">
+        <form id="loginForm" action="login.php" method="post">
+        <div class="form-header">
+          <h3>Login to check loan application</h3>
+        </div>
+      <div class="form-group">
+          <label for="lemail">Email:</label>
+          <input type="email" class="form-control" id="lemail" name="lemail" required>
+      </div>
+      <div class="form-group">
+          <label for="lpassword">Password:</label>
+          <input type="password" class="form-control" id="lpassword" name="lpassword" required>
+      </div>
+      <div class="form-group" style="text-align: center;">
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Login</button>
+      </div>
+      </form>
+
+      <div class="text-center small"><img src="assets/img/pdx.jpg" alt="" style="margin-right: 7px;">Need a loan? <a href="lagent.html">Register here</a> to start a new application for a Payday loan
+      </div>
+    </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Get a weekly email of our expert analysis, current thinking about financial markets, investing strategies, personal finance and a copy of our newsletter.</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/pdx.jpg" alt="">
+              <span>Payday</span>
+            </a>
+            <p><b>Disclaimer:</b> Investment involves risk, but it also holds the potential for growth and financial security. Make your money work for you. Invest wisely, diversify your portfolio, and stay informed about market trends. Remember, investing is a long-term journey. Start today and pave the way for a prosperous future.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about-details.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="blog.html">Our Blog</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="learn-center.html">Learn Center</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="support-center.html">Support Center</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Sign in</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Create Account</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Invest in Stocks</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Invest in Crypto</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Invest in ETFs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="Account-management.html">Investment Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="Plans.html">Investment Plans</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Payday Investment Company 2023</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Powered by <a href="https://bootstrapmade.com/">Technology</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  </main><!-- End #main -->
+
+</body>
+
+</html>

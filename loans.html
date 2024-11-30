@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Apply for a loan</title>
+  <meta content="Unlock financial possibilities with Payday. Explore investment opportunities, expert advice, and strategic portfolio management. Secure your financial future with a trusted partner committed to maximizing returns and profits. Start your journey to financial success today." name="description">
+  <meta content="Payday Investment" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/pdx.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  
+  <style>
+      #calculator {
+            padding: 20px;
+            border: 1px solid #012960;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #012960;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #012960;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #012960;
+        }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/pdx.jpg" alt="">
+        <span>Payday</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+        	<li class="dropdown"><a href="#"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="account-management.html">Investment Management</a></li>
+              <li class="dropdown"><a href="#"><span>Investment Portfolio</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="stock-portfolio.html">Stock</a></li>
+                  <li><a href="crypto-portfolio.html">Crypto</a></li>
+                  <li><a href="ETF-portfolio.html">ETFs</a></li>
+                  <li><a href="indices.html">Index</a></li>
+                  <li><a href="Plans.html">Offers</a></li>
+                </ul>
+              </li>
+              <li><a href="advice.html">Investment Advice</a></li>
+              <li><a href="Plans.html">Investment Plans</a></li>
+              <li><a href="about-details.html">About us</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Our Blog</a></li>
+          <li><a class="nav-link scrollto" href="Learn-center.html">Learn Center</a></li>
+          <li><a class="nav-link scrollto" href="Support-center.html">Support Center</a></li>
+          <li><a class="nav-link scrollto" href="emailotpverification/login.php">Sign In</a></li>
+          <li><a class="getstarted scrollto" href="emailotpverification/index.php">Create Account</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Back to Homepage</a></li>
+          <li>Payday Loans</li>
+        </ol>
+        <h2>Payday Loans</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+    
+    <section class="container" data-aos="fade-up">
+      <div class="row gx-0">
+        <header class="section-header">
+          <p><b>Explore how different types of loans, including personal, student and business, can help you reach your goals.</b></p>
+        </header>
+        <p style="text-align: center;">
+            <a class="btn btn-primary" href="#personal">Personal loans</a>
+            <a class="btn btn-primary" href="#business">Business loans</a></p>
+      </div>
+    </section>
+    
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="40132" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Loans approved</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="35521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Loans in-progress</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Loans unfinished</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Loans declined</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <section id="personal" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Instant Personal loans</h2>
+          <p>Apply for a personal loan<br> without ever leaving your couch</p>
+        </header>
+        
+        <div class="row">
+        <div class="col-lg-6">
+        <h3 style="color: #012960">Quick funds for all your needs</h3>
+        <p style="text-align: justify;">
+        If you aren’t a current U.S. Bank customer, a personal loan could give you quick access to funds for your one-time financing needs up to <b>$25,000</b>. We consider your credit score, debt-to-income, credit history and other factors when making approval decisions. The final loan amount, annual percentage rate and estimated monthly payment may vary based on your credit score and other credit qualifiers.
+        </p>
+        <p style="text-align: justify;">
+            If you’re a U.S. Bank customer, you may borrow at least <b>$1,000</b> up to <b>$50,000</b> and borrowers could receive funds within hours. Complete our easy online application. It takes 5 minutes and there is no paperwork and no faxing required. We deposit your money right into your bank account. Your installment loan payments come from the same account - automatic, no hassles.
+        </p>
+        <p style="text-align: justify;">
+            You can use a personal loan for any purchase or project. This one-time funding can help cover vacations, home renovations, medical bills or consolidating debts. Not sure what your monthly payment would be? Use our personal loan calculator to estimate your monthly payment. Just answer a few quick questions and we’ll give you a personalized estimate.
+        </p>
+        
+        </div>
+        
+        <div class="col-lg-6 text-center">
+            <img src="assets/img/loans.png" class="img-fluid" alt="">
+            <p style="text-align: center;">
+            <a class="btn btn-primary" href="#personal">Apply now</a>
+            <a class="btn btn-primary" href="#business">Take survey</a>
+            </p>
+          </div>
+        </div>
+        
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+            
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <div id="calculator">
+                    <h3>Loan Calculator</h3>
+                    <p>Estimate your monthly payment with this personal loan calculator.</p>
+                    
+                    <label for="amount">How much would you like to borrow? ($):</label>
+                    <input type="number" id="amount" placeholder="Enter loan amount" required>
+
+                    <label for="months">Loan Term (Months):</label>
+                    <input type="number" id="months" placeholder="Enter loan term in months" required>
+
+                    <label for="creditScore">Credit Score:</label>
+                    <input type="number" id="creditScore" placeholder="Enter credit score" required>
+
+                    <button onclick="calculateLoan()">Calculate</button>
+
+                    <div id="result"></div>
+                </div>
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+                
+              <div class="row align-self-center gy-4">
+                  
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200" style="padding-top: 40px;">
+                  <i class="bi-exclamation-circle"></i>
+                  <div>
+                    <h4>No collateral required</h4>
+                    <p>A personal loan doesn’t require your home or car as collateral, so you won’t have to deal with inspections or appraisals.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi-globe2"></i>
+                  <div>
+                    <h4>Same day funding</h4>
+                    <p>Same Day Funding available for clients completing the loan process and signing the Promissory Note by 1:00PM ET on a business day.</p>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bi-database-x"></i>
+                  <div>
+                    <h4>No hidden costs or fees</h4>
+                    <p>When you take out a personal loan, you’ll pay no origination fees and there is no prepayment penalty. You’re always free to make loan payments ahead, in part or in full.</p>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="bi-coin"></i>
+                  <div>
+                    <h4>As low as 8.24% APR </h4>
+                    <p>If approved, you’ll pay the same amount every month for a term of 12 to 84 months (maximum 60 months for non-customers), with a fixed annual percentage rate APR.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div><br><br>
+      
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>USES FOR A PERSONAL LOAN</h2>
+          <p>Why a personal loan may be right for you</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img src="assets/img/ploan4.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>When life happens and you’re dealing with a sudden cost or unexpected bill, a personal loan can help you get the funds you need quickly.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>Finance a home project easily. Whether you want to stay in your home or sell, you can use a personal loan to fund home remodeling, repairs or upgrades.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>Fund your move easily. A personal loan can help with things like hiring movers or buying new furniture whether you’re moving across the street or across the country.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <h3>Not every vacation requires a loan, but if you have a once-in-a-lifetime trip or dream honeymoon coming up, a personal loan can help with travel costs.</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div> <!-- / row -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+    
+    
+    
+    <!-- ======= Values Section ======= -->
+    <section id="business" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>BUSINESS LOANS</h2>
+          <p><b>Discover the right business loan</b></p>
+        </header>
+        <p style="text-align: justify;">
+        U.S. Bank business loan options can be used to cover operating expenses, maintain inventory, pay vendors and more. Backed by the strength and stability of U.S. Bank, our business loans offer you competitive rates, flexible terms and guidance from a business banker.
+        </p>
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="assets/img/bloan4.jpg" class="img-fluid" alt="">
+              <h3>Quick loan with an online application</h3>
+              <p>U.S. BANK QUICK LOAN<br>(Instant loan)</p>
+              <span>
+              <ul style="list-style-type:none;">
+                  <li> Up to $250,000 </li>
+                  <li> Fixed interest rates </li>
+              </ul>
+              </span>
+              <span>
+                  <a href="#" class="btn-read-more"> Learn more about quick loans <i class="bi bi-arrow-right"></i></a> 
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="assets/img/bloan3.jpg" class="img-fluid" alt="">
+              <h3>Government-backed SBA loans</h3>
+              <p>SMALL BUSINESS ADMINISTRATION (SBA Program)</p>
+              
+              <span>
+              <ul style="list-style-type:none;">
+                  <li> Up to $7.375 million </li>
+                  <li> Faster loan process </li>
+              </ul>
+              </span>
+              
+              <span>
+                  <a href="#" class="btn-read-more"> Learn about SBA loans <i class="bi bi-arrow-right"></i></a> 
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="assets/img/bloan6.jpg" class="img-fluid" alt="">
+              <h3>Essential business asset financing</h3>
+              <p>EQUIPMENT FINANCING<br>(Essential financing)</p>
+              
+              <span>
+              <ul style="list-style-type:none;">
+                  <li> Up to $1,000,000 </li>
+                  <li> Finance up to 125% </li>
+              </ul>
+              </span>
+              
+              <span>
+                  <a href="#" class="btn-read-more"> Learn about equipment financing <i class="bi bi-arrow-right"></i></a> 
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+    
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 style="font-size:20px !important;">Understand key facts of a business loan.</h2>
+             
+              <p><i class="bi bi-check2"></i>
+                One-time payout of funds</p>
+              <p><i class="bi bi-check2"></i>
+                Interest rates are typically lower than a line of credit</p>
+              <p><i class="bi bi-check2"></i>
+                Interest is paid on full amount</p>
+              <p><i class="bi bi-check2"></i>
+                Repayment is a fixed monthly payment</p>
+              <div class="text-center text-lg-start">
+                <a href="Plans.html" target="_blank" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Apply now</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/bloan5.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+    
+    
+
+    <section class="inner-page">
+      <div class="container">
+          <header class="section-header">
+          <h2>Applying for a loan</h2>
+          <p>- Payday Loans -</p>
+        </header>
+        <p style="text-align: justify;">
+          All loans are made by Cross River Bank, a New Jersey state chartered commercial bank, Member FDIC, Equal Housing Lender. All loans are unsecured, fully amortizing personal loans. Eligibility for a loan is not guaranteed. Please refer to our Disclosures and Licenses page for state-required disclosures, licenses, and lending restrictions.
+        </p>
+        <p style="text-align: justify;">
+          Approved clients using Payday Loans will see loan options for a 36 or 60 month term, and APR ranges from a minimum of 9.116% (rate with autopay discount) to a maximum of 29.99% (rate without autopay discount) depending upon their credit profile. An origination fee of up to 9% is charged for each loan. This fee is deducted from the balance before funds are disbursed to the client.
+        </p>
+        <p style="text-align: justify;">
+          For example, a 5-year $16,000 loan with a 14.55% interest rate and a 6.95% ($1,112) origination fee would have 59 scheduled monthly payments of approximately $376.83 and 1 final monthly payment of approximately $399.09 for an APR of 17.90%. Borrower must be a registered citizent with resident and at least 18 years of age. All loan applications are subject to credit review and approval and offered loan terms depend upon credit score, requested amount, requested loan term, credit usage, credit history and other factors.
+        </p>
+        <p style="text-align: justify;">
+          Same Day Funding available for clients completing the loan process and signing the Promissory Note by 1:00PM ET on a business day. Also note, the ACH credit will be submitted to your bank the same business day. This may result in same day funding, but results may vary and your bank may have rules that limit our ability to credit your account. We are not responsible for delays which may occur due to incorrect routing number, account number, or errors of your financial institution.
+        </p>
+        <p style="text-align: justify;">
+          Please refer to our Terms of Use for additional terms and conditions, and to Payday Loans' Privacy Notice and Cross River's Privacy Notice to learn more about what we do with your personal information. For California residents, please see the California Financial Privacy Opt-Out Form .
+        </p>
+        <p style="text-align: justify;">
+          Not all borrowers receive the lowest interest rate. To qualify for the lowest rate, you must have excellent credit, meet certain conditions, and select autopay. Rates and Terms are subject to change at any time without notice.
+        </p>
+        <p style="text-align: justify;">
+          Payday Loans Marketplace LLC dba RocketLoans dba Rocket Loans | A108 Adam Street New York, NY 535022
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Testimonials</h2>
+          <p>What our borrowers have to say</p>
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "I recently applied for a personal loan with Payday, and I must say the process was incredibly smooth. The application was straightforward, and the approval came in no time. The interest rates were reasonable, and the flexibility in repayment options made it a stress-free experience. Highly recommend Payday for anyone in need of quick financial assistance."
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Being a student, financial challenges are common, and Payday truly understands that. I availed a student loan from them, and it made my academic journey much more manageable. The low-interest rates and the option to start repayment after graduation were game-changers. If you're a student looking for financial support, Payday is the way to go!"
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Business Owner</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Securing a business loan from Payday was a strategic move for my company. The application process was efficient, and the loan terms were tailored to suit my business needs. The quick approval and competitive interest rates allowed us to invest in expansion opportunities. Payday proved to be a valuable financial partner for our business."
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Payday exceeded my expectations when I applied for a personal loan. The transparency in their terms and conditions was refreshing. No hidden fees, and the customer service was prompt and helpful. Payday truly stands out for its commitment to providing fair and accessible financial solutions. A trustworthy choice for personal loans."
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Stylist</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  "Navigating through the financial challenges of student life became much easier with Payday. The application process for the student loan was straightforward, and the interest rates were reasonable. What sets Payday apart is their understanding of students' needs and their commitment to supporting educational pursuits. Grateful for the financial assistance during my academic journey."
+                </p>
+                <div class="profile mt-auto">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Get a weekly email of our expert analysis, current thinking about financial markets, investing strategies, personal finance and a copy of our newsletter.</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/pdx.jpg" alt="">
+              <span>Payday</span>
+            </a>
+            <p><b>Disclaimer:</b> Investment involves risk, but it also holds the potential for growth and financial security. Make your money work for you. Invest wisely, diversify your portfolio, and stay informed about market trends. Remember, investing is a long-term journey. Start today and pave the way for a prosperous future.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about-details.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="blog.html">Our Blog</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="learn-center.html">Learn Center</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="support-center.html">Support Center</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Sign in</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Create Account</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Invest in Stocks</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Invest in Crypto</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Invest in ETFs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="Account-management.html">Investment Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="Plans.html">Investment Plans</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Payday Investment Company 2023</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Powered by <a href="https://bootstrapmade.com/">Technology</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  <script>
+        function calculateLoan() {
+            var amount = parseFloat(document.getElementById('amount').value);
+            var months = parseFloat(document.getElementById('months').value);
+            var creditScore = parseFloat(document.getElementById('creditScore').value);
+
+            var interestRate = getInterestRate(creditScore);
+            var monthlyInterestRate = interestRate / 12 / 100;
+
+            var monthlyPayment = (amount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -months));
+
+            document.getElementById('result').innerHTML = 'Monthly Payment: $' + monthlyPayment.toFixed(2);
+        }
+
+        function getInterestRate(creditScore) {
+            if (creditScore >= 720) {
+                return 3.5;
+            } else if (creditScore >= 680) {
+                return 4.5;
+            } else if (creditScore >= 640) {
+                return 6.0;
+            } else {
+                return 8.0;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
